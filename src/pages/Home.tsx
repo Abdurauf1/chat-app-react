@@ -1,11 +1,11 @@
-import Chat from "../components/Chat";
-import Sidebar from "../components/Sidebar";
+import { Chat, RightSideBar, Sidebar } from "../components";
 
 const Home = () => {
   return (
-    <div className="flex w-screen h-screen">
+    <div className="h-screen w-full flex">
       <Sidebar />
       <Chat />
+      <RightSideBar />
     </div>
   );
 };
